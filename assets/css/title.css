@@ -1,0 +1,28 @@
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.title__profile{
+    width: 50%;
+}
+.title__container{
+    align-items: center;
+}
+.title__bio{
+    font-size: 4.75rem;
+}
+.title__subsection{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.title__network{
+    display: flex;
+}
+.title__network__item{
+    margin-right: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}

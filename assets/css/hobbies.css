@@ -1,0 +1,30 @@
+
+.hobbies{
+    padding-top: 2% ;
+    padding-bottom: 4%;
+}
+.hobbies__title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hobbies__box{
+    background-color: #fff;
+    min-width: 14rem;
+    margin: 0.7%;
+    height: 15rem;
+    display: flex;
+    align-items: last baseline;
+
+}
+.hobbies__img{
+    height: 2.5rem;
+}
+.hobbies__name{
+    font-size: 1rem;
+    font-family: 'Raleway';
+}

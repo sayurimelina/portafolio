@@ -1,0 +1,34 @@
+
+.academic{
+    padding-top: 2% ;
+    padding-bottom: 4%;
+    background-color: #EAF2FD;
+}
+.academic__title{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.academic__courses__box{
+    display: flex;
+    align-items: last baseline;
+}
+.academic__courses__item__img{
+    background-color: #fff;
+    min-width: 30rem;
+    margin: 0 0.7%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+}
+.academic__courses__item__title{
+    font-size: 1rem;
+    font-family: 'Raleway';
+}
+.academic__courses__item__subtitle{
+    font-size: 1rem;
+}
