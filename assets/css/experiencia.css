@@ -6,6 +6,49 @@
     text-align: center;
     font-size: 2.5rem;
 }
-.experiencie__box{
-    
+.experience__box{
+    display: flex;
+    justify-content:center;
+    margin: 5% 0;
+    align-items: center;
+}
+.experience__box--reverse{
+    flex-direction: row-reverse;
+}
+.experience__img{
+    width: 40rem;
+}
+.experience__info{
+    width: 20rem;
+    margin: 1rem;
+}
+.experience__title{
+    font-size: 1.5rem;
+}
+.experience__text{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.experience__description{
+    display: flex;
+}
+.experience__repo , .experience__demo{
+    margin-right: 3%;
+    border: 1px solid #2A7AE4;
+}
+.experiencia__botao--repo{
+    background-color: #ffffff;
+    color: #2A7AE4;
+}
+.experience__botao--demo{
+    background-color: #2A7AE4;
+    color: #ffffff;
+}
+.experiencia__botao--repo:hover{
+    background-color: #2A7AE4;
+    color: #ffffff;
+}
+.experience__botao--demo:hover{
+    background-color: #ffffff;
+    color: #2A7AE4;
 }

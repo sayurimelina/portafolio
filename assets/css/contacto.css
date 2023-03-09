@@ -1,0 +1,35 @@
+.formcontato{
+    background-color: darkcyan;
+}
+.formcontato__contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formcontato__text{
+    margin: 0 1rem;
+}
+.formcontato__title{
+    font-size: 2.5rem;
+}
+.formcontato__subtext{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.formcontato__input{
+    width: 100%;
+    padding: 0.8rem;
+}
+.formcontato__textarea{
+    width: 100%;
+}
+.formcontato__botao{
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+}
+
