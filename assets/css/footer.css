@@ -1,0 +1,13 @@
+.footer{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #ffffff;
+
+}
+.footer__rodape{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

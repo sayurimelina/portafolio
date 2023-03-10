@@ -2,7 +2,7 @@ body{
     background-color: #F5F5F5;
 }
 section{
-    padding: 0 10%;
+    padding: 0 7%;
 }
 button{
     text-align: center;
@@ -12,4 +12,5 @@ button{
     box-sizing: border-box;
     padding: 0.8rem 1.5rem;
     border-style: none;
+    cursor: pointer;
 }
