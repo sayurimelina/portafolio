@@ -13,7 +13,7 @@
     align-items: center;
 }
 .menu__header img{
-    width: 50%;
+    width: 60px;
 }
 .menu__title{
     font-size: 1rem;
@@ -22,13 +22,18 @@
 .menu__list{
     display: flex;
 }
-.menu__list__item{
+.menu__list__item, .menu__list__item--contacto{
     margin-right: 1.25rem;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1rem;
     
 }
 .menu__list__item:hover{
     text-decoration: underline;
 }
 
+@media screen and (max-width: 765px) {
+    .menu__list__item{
+        display: none;
+    }
+}

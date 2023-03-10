@@ -1,8 +1,8 @@
 body{
     background-color: #F5F5F5;
 }
-section{
-    padding: 0 7%;
+section {
+    padding: 0 6%;
 }
 button{
     text-align: center;
@@ -13,4 +13,12 @@ button{
     padding: 0.8rem 1.5rem;
     border-style: none;
     cursor: pointer;
+}
+
+/*Apartir de 1024 poseera estas propiedades
+1024 768px 1440px 360px*/
+@media screen and (max-width: 1024px) {
+    body{
+        background-color: rgb(2, 47, 47);
+    }
 }

@@ -3,26 +3,35 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    align-items: center;
     padding-bottom: 5%;
 }
 .title__profile{
-    width: 50%;
+    width: 40%;
+    height: 40%;
 }
 .title__container{
     align-items: center;
 }
 .title__bio{
-    font-size: 4.75rem;
+    font-size: 4vw;      /*de 4.75rem*/
 }
 .title__subsection{
-    font-size: 2rem;
+    font-size: 2vw;   /*de 2rem*/
     font-weight: 300;
 }
 .title__network{
     display: flex;
 }
 .title__network__item{
-    margin-right: 1.2rem;
-    font-size: 1.5rem;
+    margin-right: 1vw;   /*1.2 rem 1.5 rem*/
+    font-size: 1vw;
     font-weight: 300;
+}
+/*Apartir de 1024 poseera estas propiedades
+1024 768px 1440px 360px*/
+@media screen and (max-width: 360px) {
+    .title__div{
+        flex-wrap: wrap;
+    }
 }

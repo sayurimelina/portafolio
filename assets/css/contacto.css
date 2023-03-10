@@ -52,5 +52,10 @@
     width: fit-content; /*modificado de base.css*/ 
 }
     
+@media screen and (max-width: 768px) {
+    .formcontato--esquerda{
+        display: none;
+    }
+}
 
 
